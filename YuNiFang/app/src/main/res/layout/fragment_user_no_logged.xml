@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/user_center_bg" >
+
+        <ImageView
+            android:id="@+id/image_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/user_setting" />
+
+        <ImageView
+            android:id="@+id/person_image_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_setting"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/user_icon_default" />
+        <Button
+            android:id="@+id/image_person_fragment_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/person_image_photo"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/login_btn_bg"
+            android:text="签到"
+            android:textColor="#7ecef4" />
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_person_fragment_login"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_wait_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/wait_pay"
+            android:text="待付款"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_wait_send_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/wait_send_good"
+            android:gravity="center"
+            android:text="待发货" />
+
+        <RadioButton
+            android:id="@+id/rb_wait_receive_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/wait_receive_good"
+            android:gravity="center"
+            android:text="待付款" />
+
+        <RadioButton
+            android:id="@+id/rb_wait_evaluate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/wait_evaluate"
+            android:gravity="center"
+            android:text="待付款"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_wait_refund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/wait_refund"
+            android:gravity="center"
+            android:text="待付款"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+</LinearLayout>

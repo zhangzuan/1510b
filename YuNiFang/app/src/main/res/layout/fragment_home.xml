@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:textColor="#fc758f"
+        android:text="@string/home_title"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    -<RelativeLayout
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <activity.bawe.com.yunifang.view.MyRoolViewPager
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:id="@+id/myRoolViewPager"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:id="@+id/ll_dots"
+        android:layout_alignBottom="@id/myRoolViewPager"
+        android:gravity="right"/>
+           </RelativeLayout>
+
+    <GridView
+        android:id="@+id/home_mygv"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:numColumns="4">
+    </GridView>
+            <View android:layout_height="2dp" android:layout_width="match_parent" android:background="#cccccc"/>
+            -<LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#fff"
+             >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_weekHot"
+              />
+            <android.support.v7.widget.RecyclerView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/homepage_recycle"/>
+        </LinearLayout> -
+
+        -<LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:text="♒优惠活动♒"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <android.support.v4.view.ViewPager
+            android:layout_height="160dp"
+            android:layout_width="match_parent"
+            android:id="@+id/home_viewpager"/>
+    </LinearLayout>
+            -<LinearLayout android:orientation="vertical"
+            android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:background="#fff" android:layout_marginTop="10dp">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:text="♒热门专题♒"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+                android:id="@+id/home_page_recycler"/>
+        </LinearLayout>
+            <activity.bawe.com.yunifang.view.MyGridView
+                android:id="@+id/home_page_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="2">
+
+            </activity.bawe.com.yunifang.view.MyGridView>
+            <TextView android:layout_height="40dp" android:layout_width="match_parent" android:textColor="#8C8C8C" android:text="查看所有商品" android:gravity="center" android:background="#f2f2f2" android:id="@+id/all_text"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

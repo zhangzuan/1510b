@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zhuye"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="activity.bawe.com.yunifang.ZhuyeActivity">
+
+    <activity.bawe.com.yunifang.view.NoScrollViewPager
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" android:id="@+id/vp_main"
+        ></activity.bawe.com.yunifang.view.NoScrollViewPager>
+    -<RadioGroup android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/rg_main">
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rb_home_page"
+        android:text="首页"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/bg_index_home"
+        android:button="@null"
+        android:layout_gravity="center_horizontal"/>
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1" android:id="@+id/rb_category"
+        android:text="分类" android:gravity="center_horizontal"
+        android:drawableTop="@drawable/bg_index_classify"
+    android:button="@null"
+        android:layout_gravity="center_horizontal"/>
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rb_cart"
+        android:text="购物车"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/bg_index_shopping"
+        android:button="@null" android:layout_gravity="center_horizontal"/>
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp"
+        android:layout_weight="1" android:id="@+id/rb_mine" android:text="我的"
+        android:gravity="center_horizontal" android:drawableTop="@drawable/bg_index_user"
+    android:button="@null" android:layout_gravity="center_horizontal"/>
+</RadioGroup>
+</LinearLayout>

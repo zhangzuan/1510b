@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    -<LinearLayout android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_above="@+id/shop_lin2">
+    -<RelativeLayout android:background="#ffffff" android:layout_height="wrap_content"
+    android:layout_width="match_parent" android:padding="5dp">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:textSize="20dp" android:textColor="#fc6b87" android:text="购物车"
+        android:layout_centerInParent="true" android:id="@+id/shopcar_title"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:textColor="#fc6b87" android:text="编辑" android:id="@+id/shop_editbutton"
+        android:paddingRight="10dp" android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/> </RelativeLayout>
+    <ListView android:background="#ffffff" android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/shop_lv_view"/> </LinearLayout>
+    -<LinearLayout android:orientation="horizontal" android:layout_height="55dp"
+    android:layout_width="match_parent" android:id="@+id/shop_lin2"
+    android:layout_alignParentBottom="true"> -
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="0dp" android:layout_weight="0.3">
+        <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:id="@+id/checkall" android:layout_centerVertical="true" android:layout_marginLeft="10dp"/>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="全选" android:layout_centerVertical="true" android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/checkall"/> </RelativeLayout>
+    -<RelativeLayout android:layout_height="match_parent" android:layout_width="0dp"
+        android:id="@+id/rela_allprice" android:layout_weight="0.5">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:textSize="15dp" android:textColor="#fc6b87" android:text="总计:￥0.00"
+            android:layout_centerInParent="true" android:id="@+id/allprice"/> </RelativeLayout>
+    -<RelativeLayout android:layout_height="match_parent" android:layout_width="0dp"
+        android:layout_weight="0.2"> <Button android:background="#fc6b87"
+        android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ffffff"
+        android:text="结算" android:layout_centerInParent="true"
+    android:id="@+id/shop_bayall" android:layout_margin="5dp"/> </RelativeLayout> </LinearLayout>
+
+
+
+</RelativeLayout>

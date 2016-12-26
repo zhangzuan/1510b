@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="activity.bawe.com.yunifang.LoginActivity">
+    -<LinearLayout android:orientation="horizontal"
+    android:layout_height="40dp" android:layout_width="match_parent"
+    android:gravity="center_vertical" android:background="#fff">
+    <ImageView android:layout_height="25dp" android:layout_width="25dp"
+        android:src="@drawable/jiantou" android:layout_gravity="center_vertical"
+        android:id="@+id/imag_fanhui"/> <TextView android:layout_height="40dp"
+    android:layout_width="match_parent" android:gravity="center" android:textSize="18sp"
+    android:text="登陆" android:layout_weight="1"/> <TextView android:layout_height="40dp"
+    android:layout_width="wrap_content" android:gravity="center" android:textSize="16sp"
+    android:text="注册" android:textColor="#fc6b87"/>
+</LinearLayout> -<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    android:background="@mipmap/bg_login" android:layout_weight="1">
+    -<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent" android:gravity="center_horizontal" android:id="@+id/buju_dl_tou1" android:layout_marginTop="30dp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp"> <TextView android:layout_height="40dp" android:layout_width="match_parent" android:gravity="center" android:background="#fff" android:id="@+id/tv_ynfdl" android:textSize="16sp" android:text="御泥坊账号登录" android:layout_weight="1" android:textColor="#fc6b87"/> <TextView android:layout_height="40dp" android:layout_width="match_parent" android:gravity="center" android:id="@+id/tv_sjdl" android:textSize="16sp"
+    android:text="手机快速登陆" android:layout_weight="1"/>
+</LinearLayout>
+    <EditText android:layout_height="40dp" android:layout_width="match_parent" android:background="#fff" android:id="@+id/editText1" android:textSize="16sp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp" android:hint="手机号"/> -<FrameLayout android:layout_height="40dp" android:layout_width="match_parent" android:layout_marginTop="15sp"> -<LinearLayout android:layout_height="40dp" android:layout_width="match_parent" android:id="@+id/buju_shouji" android:layout_marginRight="40dp" android:layout_marginLeft="40dp"> <EditText android:layout_height="40dp" android:layout_width="match_parent" android:background="#fff" android:id="@+id/ed_yzm" android:textSize="16sp" android:layout_weight="2" android:hint="验证码"/> <Button android:layout_height="40dp" android:layout_width="match_parent" android:background="#fff" android:id="@+id/bu_hqyzm" android:text="获取验证码" android:layout_weight="3" android:textColor="#fc6b87" android:layout_marginLeft="5dp"/> </LinearLayout> <EditText android:layout_height="40dp" android:layout_width="match_parent" android:background="#fff" android:id="@+id/ed_mima" android:textSize="16sp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp" android:hint="密码"/> </FrameLayout> <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tv_wjmm" android:textSize="16sp" android:text="忘记密码" android:layout_marginTop="15sp" android:layout_marginLeft="40dp"/> <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#fc6b87" android:id="@+id/button1" android:text="登录" android:textColor="#fff" android:layout_marginTop="15dp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp"/> <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/login_image" android:layout_marginTop="100dp"/> -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center" android:layout_marginTop="50dp"> <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tv_login" android:textSize="18dp" android:text="第三方快速登录" android:textColor="#fc6b87"/> <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+    android:text="第三方快速登录用户不享受任何御泥坊会员权益"/>
+</LinearLayout> </LinearLayout>
+</LinearLayout>

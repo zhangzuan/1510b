@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_secor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.hhzmy.myxiangmu.SecorActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/lin_index">
+    </LinearLayout> -
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/rg_index"
+        android:gravity="center">
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rb_index_home"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:checked="true"
+            android:textColor="#fc6b87"
+          android:background="@mipmap/tab_home_pressed"
+            android:button="@null"/>
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/rb_index_classify"
+            android:gravity="center"
+            android:textSize="12sp"
+           android:background="@mipmap/tab_class_normal"
+            android:button="@null"/>
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rb_index_shopping"
+            android:gravity="center" android:textSize="12sp"
+          android:background="@mipmap/tab_shopping_normal"
+            android:button="@null"/>
+        <RadioButton
+        android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rb_index_user"
+            android:gravity="center"
+            android:textSize="12sp"
+           android:background="@mipmap/tab_myebuy_normal"
+            android:button="@null"/>
+
+
+</RadioGroup>
+</LinearLayout>

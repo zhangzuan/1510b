@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/guide_page3"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/lv_goods_shoping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </ListView>
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_goods_shoping"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="总计：￥0.00"
+            android:textColor="#f39" />
+
+        <Button
+            android:id="@+id/balance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f39"
+            android:gravity="center"
+            android:text="结算"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

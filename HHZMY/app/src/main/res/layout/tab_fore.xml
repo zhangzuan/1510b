@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/tab_ll_fore"
+    android:background="@mipmap/guide_pass"
+    android:orientation="vertical" >
+    -<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="43dp"
+    android:layout_width="match_parent"
+    android:background="#ff6666">
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@mipmap/icon_scan_top"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/fragment1_saomiao"/>
+    -<RelativeLayout
+    android:layout_height="28dp"
+    android:layout_width="0dp"
+    android:background="@mipmap/aa"
+    android:id="@+id/fragment1_sousuo"
+    android:layout_weight="1"
+    android:layout_marginTop="8dp">
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@mipmap/search_edit_icon"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="好奇！！！"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@mipmap/icon_mes_top"
+        android:id="@+id/fragment1_xiaoxi"
+        android:layout_marginRight="5dp"/>
+</LinearLayout> -
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+        -<LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <android.support.v4.view.ViewPager
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/fragment1_viewpager">
+
+        </android.support.v4.view.ViewPager>
+
+        <activity.hhzmy.com.hhzmy.zidingyiview.MyGridView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/fragment1_gridview"
+            android:numColumns="4">
+        </activity.hhzmy.com.hhzmy.zidingyiview.MyGridView>
+        <View android:layout_height="10dp"
+            android:layout_width="match_parent"
+            android:background="#ffffcc"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/fragment1_biaoti_zhutui"/>
+        -<HorizontalScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/fragment1_horizontalscrollview">
+        </LinearLayout>
+    </HorizontalScrollView>
+        <View android:layout_height="10dp"
+            android:layout_width="match_parent"
+            android:background="#ffffcc"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/fragment1_biaoti_shiyi"/>
+        -<LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fragment1_shiyi_1"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fragment1_shiyi_2"
+            android:layout_weight="1"/>
+    </LinearLayout> -
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/fragment1_shiyi_3"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/fragment1_shiyi_4"
+                android:layout_weight="1"/>
+        </LinearLayout> -
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/fragment1_shiyi_5"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/fragment1_shiyi_6"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <View
+            android:layout_height="15dp"
+            android:layout_width="match_parent"
+            android:background="#ffffcc"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/fragment1_muYingZhuanQ"/>
+        -<LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fragment1_muYingZhuanQ_tu1"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fragment1_muYingZhuanQ_tu2"
+            android:layout_weight="1"/> </LinearLayout>
+        -<LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fragment1_muYingZhuanQ_tu3"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fragment1_muYingZhuanQ_tu4"
+            android:layout_weight="1"/>
+        <ImageView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fragment1_muYingZhuanQ_tu5"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fragment1_muYingZhuanQ_tu6"
+            android:layout_weight="1"/>
+    </LinearLayout>
+        <ImageView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/fragment1_zhuTiTeMai"/>
+        <ImageView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/fragment1_zhuTiTeMai_DaTu_1"/> -
+        <HorizontalScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/fragment1_zhuTiTeMai_HuaDong_1">
+            </LinearLayout>
+        </HorizontalScrollView>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/fragment1_zhuTiTeMai_DaTu_2"/>
+        -<HorizontalScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/fragment1_zhuTiTeMai_HuaDong_2"> </LinearLayout> </HorizontalScrollView> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fragment1_zhuTiTeMai_DaTu_3"/> -<HorizontalScrollView android:layout_height="wrap_content" android:layout_width="match_parent"> <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/fragment1_zhuTiTeMai_HuaDong_3"> </LinearLayout> </HorizontalScrollView> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fragment1_zhuTiTeMai_DaTu_4"/> -<HorizontalScrollView android:layout_height="wrap_content" android:layout_width="match_parent"> <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/fragment1_zhuTiTeMai_HuaDong_4"> </LinearLayout> </HorizontalScrollView> <View android:layout_height="10dp" android:layout_width="match_parent" android:background="#ffffcc"/> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fragment1_biaoti_pintuan"/> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fragment1_biaoti_pintuan_1"/> <View android:layout_height="5dp" android:layout_width="match_parent" android:background="#ffffcc"/> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fragment1_biaoti_pintuan_2"/> <View android:layout_height="5dp" android:layout_width="match_parent" android:background="#ffffcc"/> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fragment1_biaoti_pintuan_3"/> <View android:layout_height="5dp" android:layout_width="match_parent" android:background="#ffffcc"/> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fragment1_biaoti_pintuan_4"/> <View android:layout_height="5dp" android:layout_width="match_parent" android:background="#ffffcc"/> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fragment1_biaoti_pintuan_5"/> <View android:layout_height="5dp" android:layout_width="match_parent" android:background="#ffffcc"/> <TextView android:layout_height="40dp" android:layout_width="match_parent" android:background="#ffff66" android:text="到底啦，明天十点一元秒杀，千万不要错过哦！！！" android:textSize="14sp" android:gravity="center"/> <ImageView android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:id="@+id/fragment1_chakangengduo"/> </LinearLayout> </ScrollView>
+    
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">YuNiFang</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_tabs">首页</string>
+    <string name="classify_tabs">分类</string>
+    <string name="shopping_tabs">购物车</string>
+    <string name="user_tabs">个人中心</string>
+    <string name="personal_center">个人中心</string>
+    <string name="tv_home_gr_item_detailed">meony</string>
+    <string name="tv_home_gr_item_shop_price">¥89.90</string>
+    <string name="tv_home_gr_item_market_price">¥874.5</string>
+    <string name="classity">商品分类</string>
+    <string name="major">热门分类</string>
+    <string name="sell">热销商品</string>
+    <string name="more_goods">查看更多商品</string>
+    <string name="home_title">御泥坊VIP商城</string>
+    <string name="stock">0元抽奖</string>
+    <string name="end_of_distance">距离结束还有</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_login_dialog">LoginDialogActivity</string>
+    <string name="no_net_message">网络连接失败，请检查网络</string>
+    <string name="fresh_message">刷新</string>
+    <string name="shopping_car">逛一逛</string>
+    <string name="title_activity_proving">ProvingActivity</string>
+    <string name="title_activity_web_detail">WebDetailActivity</string>
+    <string name="title_activity_grid_detailed">GridDetailedActivity</string>
+    <string name="title_activity_detailed">DetailedActivity</string>
+</resources>
